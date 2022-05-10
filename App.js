@@ -14,11 +14,11 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: "Column"
+    flexDirection: "row"
   },
 
   redBox: {
-    flex: 1,
+    flex: 3,
     backgroundColor: "red"
   },
 
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
   },
 
   blueBox: {
-    flex: 3,
+    flex: 1,
     backgroundColor: "blue"
   } 
 });
